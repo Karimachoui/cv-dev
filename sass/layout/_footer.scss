@@ -1,0 +1,45 @@
+/*---GENERAL---*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #c4c4f5, rgb(31, 29, 51));
+}
+
+/*---ICONES---*/
+
+#hobbies{
+    width: auto;
+    height: 200px;
+    display: flex;
+    div{
+        border: solid #0f283f 3px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        margin: auto;
+        background-color: #c2c0c0;
+    }
+}
+
+
+
+/*---pied de page---*/
+
+#foo{
+    width: auto;
+    height: 100px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    border-top: #8f917d solid 4px;
+    div{
+        border: solid #3e6cc2 4px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        margin: auto;
+        background-color: #ffffff;
+    }
+}

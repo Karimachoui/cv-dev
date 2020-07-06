@@ -1,0 +1,111 @@
+/*---GENERAL---*/
+
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.classement__periode{
+    color: red;
+}
+
+.type--one{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.type--two{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.type--three{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto 40px;
+    color: #2162ac;
+}
+
+/*---DESCRIPTION + FORMATION---*/
+
+#conteneur__up{    
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---DESCRIPTION---*/
+
+#up__description{
+    font-family: 'Segoe Print';
+    p{
+        text-align: center;
+    }
+}
+
+/*---FORMATION---*/
+
+#up__formation{
+    display: flex;
+    flex-direction: column;
+}
+
+/*---COMPETENCES---*/
+
+#down__competences{
+    display: flex;
+    flex-direction: column;
+}
+
+.hard__skills, .soft__skills{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.skills--one{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #e41d1d, #bfc20b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+
+}
+
+.skills--two{
+    font-size: 25px;
+    background: linear-gradient(to right, #f82525, #684eb8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+    font-weight: bold;
+}
+
+.skills--two-s{
+    font-size: 30px;
+    background: linear-gradient(to right, #684eb8, #f82525);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+    font-weight: bold;
+}
+
+/*---EXPERIENCES PROFESSIONNELLES---*/
+
+#down__expro{
+    display: flex;
+    flex-direction: column;
+}
+
+.expro__classement{
+    display: flex;
+    flex-direction: column;
+}
+

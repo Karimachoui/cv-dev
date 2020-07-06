@@ -1,0 +1,378 @@
+h2, h3, h4, h5 {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+#info__name {
+  margin: auto;
+  font-size: 37px;
+  color: #023e7d;
+  font-family: 'Montserrat';
+}
+
+.title {
+  color: #0d3766;
+  font-size: 29px;
+}
+
+h3 {
+  font-size: 25px;
+  color: #183e69;
+}
+
+h4 {
+  font-size: 24px;
+  color: #2162ac;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+hr {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  margin: 60px auto;
+}
+
+.fa-facebook {
+  font-size: 2em;
+  margin: auto;
+  color: #2162ac;
+}
+
+/*---LOISIRS---*/
+.fa-dumbbell {
+  font-size: 2em;
+  margin: auto;
+}
+
+.fa-basketball-ball {
+  font-size: 2em;
+  margin: auto;
+  color: #eb823c;
+}
+
+.fa-biking {
+  font-size: 2em;
+  margin: auto;
+  color: #101ed6;
+}
+
+.fa-gamepad {
+  font-size: 2em;
+  margin: auto;
+  color: #1f1f20;
+}
+
+.fa-linkedin {
+  margin: auto;
+  font-size: 2em;
+  color: #366bce;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d4e3f7), to(#c4c4f5));
+  background: linear-gradient(to bottom, #d4e3f7, #c4c4f5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+/*---HEADER---*/
+#header__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+/*---SECTION---*/
+#heading__prez {
+  width: 100%;
+}
+
+#heading__prez #prez__photo {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*---DIV PHOTO---*/
+img {
+  width: 250px;
+  border: solid 4px #b0d3fa;
+  border-radius: 100%;
+  margin: auto;
+}
+
+/*---DIV INFO---*/
+#prez__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#info__job {
+  margin: auto;
+  font-size: 30px;
+  color: #0077b6;
+  font-family: 'Croissant One';
+}
+
+#info__age {
+  margin: auto;
+  font-size: 30px;
+  color: #023e7d;
+}
+
+/*---DIV CONTACT---*/
+#prez__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+#prez__contact #contact__phone {
+  font-size: 25px;
+  margin: auto;
+  font-family: 'Montserrat';
+  color: red;
+  font-weight: bold;
+}
+
+#contact__email {
+  font-size: 35px;
+  margin: auto;
+  text-decoration: none;
+  color: #023e7d;
+}
+
+/*---GENERAL---*/
+main {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.classement__periode {
+  color: red;
+}
+
+.type--one {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.type--two {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+
+.type--three {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto 40px;
+  color: #2162ac;
+}
+
+/*---DESCRIPTION + FORMATION---*/
+#conteneur__up {
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*---DESCRIPTION---*/
+#up__description {
+  font-family: 'Segoe Print';
+}
+
+#up__description p {
+  text-align: center;
+}
+
+/*---FORMATION---*/
+#up__formation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*---COMPETENCES---*/
+#down__competences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hard__skills, .soft__skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.skills--one {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, right top, from(#e41d1d), to(#bfc20b));
+  background: linear-gradient(to right, #e41d1d, #bfc20b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 300px;
+}
+
+.skills--two {
+  font-size: 25px;
+  background: -webkit-gradient(linear, left top, right top, from(#f82525), to(#684eb8));
+  background: linear-gradient(to right, #f82525, #684eb8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  font-weight: bold;
+}
+
+.skills--two-s {
+  font-size: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#684eb8), to(#f82525));
+  background: linear-gradient(to right, #684eb8, #f82525);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  font-weight: bold;
+}
+
+/*---EXPERIENCES PROFESSIONNELLES---*/
+#down__expro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.expro__classement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*---GENERAL---*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c4c4f5), to(#1f1d33));
+  background: linear-gradient(to bottom, #c4c4f5, #1f1d33);
+}
+
+/*---ICONES---*/
+#hobbies {
+  width: auto;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hobbies div {
+  border: solid #0f283f 3px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background-color: #c2c0c0;
+}
+
+/*---pied de page---*/
+#foo {
+  width: auto;
+  height: 100px;
+  background-color: #353434;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: #8f917d solid 4px;
+}
+
+#foo div {
+  border: solid #3e6cc2 4px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
