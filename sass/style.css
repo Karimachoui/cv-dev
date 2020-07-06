@@ -3,7 +3,8 @@ h2, h3, h4, h5 {
   font-family: 'Montserrat';
 }
 
-#info__name {
+/*---H1---*/
+#contact__name {
   margin: auto;
   font-size: 37px;
   color: #023e7d;
@@ -33,8 +34,43 @@ p {
 hr {
   height: 2px;
   width: 50%;
-  background-color: black;
-  margin: 60px auto;
+  background-color: #413e3e;
+  margin: 100px auto;
+}
+
+/*--------------------------*/
+/*--- MINIMUM --- 650PX ---*/
+/*------------------------*/
+@media only screen and (min-width: 650px) {
+  /*---HEADER---*/
+  #heading__prez {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 5%;
+  }
+  #heading__prez #prez__photo {
+    width: 50%;
+  }
+  #heading__prez #prez__photo img {
+    width: 300px;
+  }
+  /*---------------------*/
+  /*---MINIMUM---900PX---*/
+  /*---------------------*/
+}
+
+@media only screen and (min-width: 650px) and (min-width: 1024px) {
+  #contener {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .fa-facebook {
@@ -74,8 +110,7 @@ hr {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d4e3f7), to(#c4c4f5));
-  background: linear-gradient(to bottom, #d4e3f7, #c4c4f5);
+  background-color: #dce8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +123,7 @@ body {
 }
 
 /*---HEADER---*/
-#header__heading {
+.heading__prez {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,16 +131,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
+  width: auto;
   margin: auto;
 }
 
-/*---SECTION---*/
-#heading__prez {
-  width: 100%;
-}
-
-#heading__prez #prez__photo {
+.heading__prez #prez__photo {
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,30 +148,6 @@ img {
   border: solid 4px #b0d3fa;
   border-radius: 100%;
   margin: auto;
-}
-
-/*---DIV INFO---*/
-#prez__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#info__job {
-  margin: auto;
-  font-size: 30px;
-  color: #0077b6;
-  font-family: 'Croissant One';
-}
-
-#info__age {
-  margin: auto;
-  font-size: 30px;
-  color: #023e7d;
 }
 
 /*---DIV CONTACT---*/
@@ -157,7 +163,20 @@ img {
   text-align: center;
 }
 
-#prez__contact #contact__phone {
+#contact__job {
+  margin: auto;
+  font-size: 30px;
+  color: #0077b6;
+  font-family: 'Croissant One';
+}
+
+#contact__age {
+  margin: auto;
+  font-size: 30px;
+  color: #023e7d;
+}
+
+#contact__phone {
   font-size: 25px;
   margin: auto;
   font-family: 'Montserrat';
@@ -328,8 +347,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c4c4f5), to(#1f1d33));
-  background: linear-gradient(to bottom, #c4c4f5, #1f1d33);
 }
 
 /*---ICONES---*/
@@ -350,7 +367,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  background-color: #c2c0c0;
+  background-color: #d1d0d0;
 }
 
 /*---pied de page---*/

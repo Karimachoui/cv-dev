@@ -3,7 +3,9 @@ h2, h3, h4, h5{
     font-family: 'Montserrat';
 }
 
-#info__name{
+/*---H1---*/
+
+#contact__name{
     margin: auto;
     font-size: 37px;
     color:#023e7d;
@@ -33,6 +35,6 @@ p{
 hr{
     height: 2px;
     width: 50%;
-    background-color: black;
-    margin: 60px auto;
+    background-color: rgb(65, 62, 62);
+    margin: 100px auto;
 }

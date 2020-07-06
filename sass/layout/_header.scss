@@ -1,16 +1,10 @@
 /*---HEADER---*/
 
-#header__heading{
+.heading__prez{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: auto;  
-}
-
-/*---SECTION---*/
-
-#heading__prez{
-    width: 100%;
+    width: auto;
+    margin: auto;
     #prez__photo{
         height: 300px;
         display: flex;
@@ -26,41 +20,36 @@ img{
     margin: auto;
 }
 
-/*---DIV INFO---*/
+/*---DIV CONTACT---*/
 
-#prez__info{    
+#prez__contact{    
     display: flex;
     flex-direction: column;
+    margin: auto;
+    text-align: center;
 }
 
-#info__job{
+#contact__job{
     margin: auto;
     font-size: 30px;
     color:#0077b6;
     font-family: 'Croissant One';
 }
 
-#info__age{
+#contact__age{
     margin: auto;
     font-size: 30px;
     color:#023e7d;
 }
 
-/*---DIV CONTACT---*/
-
-#prez__contact{
-    display: flex;
-    flex-direction: column;
+#contact__phone{
+    font-size: 25px;
     margin: auto;
-    text-align: center;
-    #contact__phone{
-        font-size: 25px;
-        margin: auto;
-        font-family: 'Montserrat';
-        color: red;
-        font-weight: bold;
-    }
+    font-family: 'Montserrat';
+    color: red;
+    font-weight: bold;
 }
+
 
 #contact__email{
     font-size: 35px;

@@ -1,0 +1,39 @@
+/*--------------------------*/
+/*--- MINIMUM --- 650PX ---*/
+/*------------------------*/
+
+@media only screen and (min-width: 650px){
+
+    /*---HEADER---*/
+
+    #heading__prez{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+        #prez__photo{
+            width: 50%;
+            img{
+                width: 300px;
+            }
+        }
+        
+    }
+
+/*---------------------*/
+/*---MINIMUM---900PX---*/
+/*---------------------*/
+
+@media only screen and (min-width: 1024px){
+
+    #contener{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+
+}
