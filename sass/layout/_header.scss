@@ -3,26 +3,41 @@
 .heading__prez{
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     margin: auto;
     #prez__photo{
-        height: 300px;
+        width: 100%;
+        height: auto;
         display: flex;
+        flex-direction: column;
     }
 }
 
 /*---DIV PHOTO---*/
 
-img{
-    width: 250px;
-    border: solid 4px #b0d3fa;
+#photo--moi{
+    display: flex;
+}
+
+#photo--moi img{
+    width: 150px;
+    border: solid 4px #d2d4eb;
     border-radius: 100%;
     margin: auto;
 }
 
+#photo--bg{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#photo--bg img{
+    width: 100%;
+}
+
 /*---DIV CONTACT---*/
 
-#prez__contact{    
+.prez__contact{    
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -42,6 +57,12 @@ img{
     color:#023e7d;
 }
 
+#contact__social{
+    display: flex;
+    margin: auto;
+    width: 140px;
+}
+
 #contact__phone{
     font-size: 25px;
     margin: auto;
@@ -50,11 +71,12 @@ img{
     font-weight: bold;
 }
 
-
 #contact__email{
-    font-size: 35px;
+    font-size: 30px;
     margin: auto;
     text-decoration: none;
-    color: #023e7d;
+    font-weight: bold;
+    background: linear-gradient(to right, #2c2286, #049c0b, #f50606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-

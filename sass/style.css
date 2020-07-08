@@ -38,41 +38,98 @@ hr {
   margin: 100px auto;
 }
 
+#heading__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  margin: auto;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  background-color: #070707;
+}
+
+#heading__menu .menu__ligne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+#heading__menu .menu__ligne div {
+  width: 50%;
+  margin: auto;
+}
+
+div a {
+  text-decoration: none;
+  color: #6fc8f1;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+div a:hover {
+  border-bottom: solid 4px #71c3ec;
+  width: 25px;
+  padding-bottom: 5px;
+}
+
 /*--------------------------*/
 /*--- MINIMUM --- 650PX ---*/
 /*------------------------*/
 @media only screen and (min-width: 650px) {
   /*---HEADER---*/
   #heading__prez {
-    height: auto;
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding-top: 5%;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
   }
   #heading__prez #prez__photo {
-    width: 50%;
+    width: 100%;
+    height: auto;
   }
-  #heading__prez #prez__photo img {
-    width: 300px;
+  #photo--moi {
+    width: 250px;
+    margin-bottom: 100px;
   }
-  /*---------------------*/
-  /*---MINIMUM---900PX---*/
-  /*---------------------*/
+  /*---CONTACT---*/
+  #prez__contact {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 55% 45%;
+        grid-template-columns: 55% 45%;
+  }
+  #prez__contact #contact--1 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  #prez__contact #contact--1 #contact--2 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  #contact--2 #contact__social {
+    width: 250px;
+  }
 }
 
-@media only screen and (min-width: 650px) and (min-width: 1024px) {
-  #contener {
-    width: 80%;
-    margin: auto;
-  }
-}
-
+/*---------------------*/
+/*---MINIMUM---900PX---*/
+/*---------------------*/
 .fa-facebook {
   font-size: 2em;
   margin: auto;
@@ -131,27 +188,47 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: auto;
+  width: 100%;
   margin: auto;
 }
 
 .heading__prez #prez__photo {
-  height: 300px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*---DIV PHOTO---*/
+#photo--moi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/*---DIV PHOTO---*/
-img {
-  width: 250px;
-  border: solid 4px #b0d3fa;
+#photo--moi img {
+  width: 150px;
+  border: solid 4px #d2d4eb;
   border-radius: 100%;
   margin: auto;
 }
 
+#photo--bg {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#photo--bg img {
+  width: 100%;
+}
+
 /*---DIV CONTACT---*/
-#prez__contact {
+.prez__contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,6 +253,14 @@ img {
   color: #023e7d;
 }
 
+#contact__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 140px;
+}
+
 #contact__phone {
   font-size: 25px;
   margin: auto;
@@ -185,10 +270,14 @@ img {
 }
 
 #contact__email {
-  font-size: 35px;
+  font-size: 30px;
   margin: auto;
   text-decoration: none;
-  color: #023e7d;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2286), color-stop(#049c0b), to(#f50606));
+  background: linear-gradient(to right, #2c2286, #049c0b, #f50606);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*---GENERAL---*/
