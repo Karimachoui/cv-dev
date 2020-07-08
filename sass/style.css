@@ -57,6 +57,7 @@ hr {
 }
 
 #heading__menu .menu__ligne {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,9 +79,9 @@ div a {
 }
 
 div a:hover {
-  border-bottom: solid 4px #71c3ec;
+  border-right: solid 4px #fd0101;
   width: 25px;
-  padding-bottom: 5px;
+  padding-right: 25px;
 }
 
 /*--------------------------*/

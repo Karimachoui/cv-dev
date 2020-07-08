@@ -9,6 +9,7 @@
     height: 100px;
     background-color: rgb(7, 7, 7);
     .menu__ligne{
+        width: 80%;
         display: flex;
         margin: auto;
         div{
@@ -28,7 +29,7 @@ div a{
 }
 
 div a:hover{
-    border-bottom: solid 4px #71c3ec;
+    border-right: solid 4px #fd0101;
     width: 25px;
-    padding-bottom: 5px;
+    padding-right: 25px;
 }
